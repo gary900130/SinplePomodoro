@@ -1,0 +1,53 @@
+body {
+  margin : 0px;
+  background-color: #529e47b5;
+  background-image: url("tomato.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.timer {
+  display: inline-block;
+  padding: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: "Microsoft JhengHei", sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;   
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6cc96fd9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 9px #ffffffd9;
+  margin: 5px;
+}
+
+button:hover {background-color: #6cc96f}
+
+button:active {
+  background-color: #6cc96f;
+  box-shadow: 3px 5px #ffffffd9;
+  transform: translateY(4px);
+}
+
+#display {
+  margin-top: 10px;
+  font-size: 30vh;
+  color: white;
+  font-family: Fantasy, sans-serif;
+}
+
+#pause,
+#reset {
+  display: none; /* 開始隱藏暫停和結束按鈕 */
+}
